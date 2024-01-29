@@ -1,0 +1,17 @@
+<!-- res/layout/custom_notification_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:visibility="visible" />
+
+    <!-- Add any other views you want in the notification layout -->
+</RelativeLayout>
